@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.group{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 60, 143, 0.7)), url(img/blue-circuit.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.greeting-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-23%, -50%);
+}
+
+h1, h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #b53d00;
+    font-size: 180%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 100%;
+    color: #fff;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.8s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #ef6c00;
+    border: 2px solid #ef6c00;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 2px solid #ef6c00;
+    color: chocolate;
+}
+
+
+.btn:hover,
+.btn:active{
+    background-color: #b53d00;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 2px solid #5e92f3;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 2px solid #5e92f3;
+    color: #ffffff;
+}
+
+
+
